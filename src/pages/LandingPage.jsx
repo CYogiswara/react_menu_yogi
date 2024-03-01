@@ -18,7 +18,6 @@ const LandingPage = () => {
             <MomenBahagia/>
         </div>
 
-
     );
 }
 
