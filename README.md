@@ -86,3 +86,6 @@ Image 5
 
 Image 6
 ![IMG_20240301_162814](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/b21638db-4358-4e10-bc7b-1be2f9f4d22d)
+
+Image 7
+![IMG_20240301_162828](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/df22aa1a-13c6-46af-b7d9-ce16ffb4c71e)
