@@ -1,6 +1,6 @@
 .favorite-container{
     display: flex;
-    flex-direction: column; /* Change to column */
+    flex-direction: column; 
     align-items: center;
     background: #fafafa;
     padding: 50px;

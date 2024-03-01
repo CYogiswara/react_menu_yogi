@@ -17,17 +17,14 @@ nav{
   }
 
   .logo {
-    margin-left: 20px; /* Adjust margin as needed */
+    margin-left: 20px; 
 }
   
   ul{
     display: flex;
     margin: 0;
-    /* height: 100px;
-    align-items: center;
-    margin-right: 20px; */
     padding: 0;
-    justify-content: flex-end; /* Align list items to the right */
+    justify-content: flex-end; 
     width: 100%;
   }
   
@@ -53,11 +50,11 @@ nav{
     position: absolute;
     bottom: -5px;
     left: 0;
-    transition: width 0.3s; /* Added for animation */
+    transition: width 0.3s; 
   }
 
   nav ul li a:hover::after {
-    width: 100%; /* Make the line appear on hover */
+    width: 100%;
   }
   
   .header{
