@@ -5,6 +5,7 @@ import '../styles/landingpage.css'
 import MomenBahagia from '../components/MomenBahagiaComponent.jsx';
 import Navbar from '../components/NavbarComponent.jsx';
 import Promo from './PromoPage.jsx'
+import Locations from '../components/Locations.jsx';
 
 const LandingPage = () => {
 
@@ -15,6 +16,7 @@ const LandingPage = () => {
             <Promo/>
             <FavoriteMenu/>
             <MomenBahagia/>
+            <Locations/>
         </div>
 
     );

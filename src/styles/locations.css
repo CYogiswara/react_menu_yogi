@@ -1,0 +1,23 @@
+.locations-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.locations-title{
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+
+.locations{
+    margin-bottom: 100px;
+}
+
