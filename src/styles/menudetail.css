@@ -1,0 +1,30 @@
+.detail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background: #fafafa;
+}
+
+.menu-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-detail img{
+    width: 30%;
+    border-radius: 5px;
+}
+
+.menu-detail button{
+    background: #D50000;
+    color: white;
+    width: 230px;
+    height: 60px;
+    border-radius: 7px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px grey;
+    border: none;
+    cursor: pointer;
+}

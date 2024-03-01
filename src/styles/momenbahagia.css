@@ -1,0 +1,43 @@
+.momen-header{
+    display: flex;
+    padding-top: 70px;
+    background: #FEBA01;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+  }
+  
+  .momen-header img{
+    width: 40%;
+  }
+
+  .momen-header-title-container{
+    width: 50%;
+  }
+  .momen-header-title-container h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  .momen-header-title-container button{
+    margin-top: 30px;
+    background: #D50000;
+    color: white;
+    width: 230px;
+    height: 60px;
+    border-radius: 7px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px grey;
+    border: none;
+    cursor: pointer;
+  }
+
+  .momen-header-title-container button:hover{
+    background-color: #ba0000;
+  }
+
+  .blob{
+    width: 100%;
+    margin-top: 25%;
+  }

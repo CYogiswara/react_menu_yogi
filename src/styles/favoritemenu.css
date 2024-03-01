@@ -1,0 +1,23 @@
+.favorite-container{
+    display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center;
+    background: #fafafa;
+    padding: 50px;
+}
+
+.view-all-button {
+    background: #D50000;
+    color: white;
+    width: 230px;
+    height: 60px;
+    border-radius: 7px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px grey;
+    border: none;
+    cursor: pointer;
+}
+
+.view-all-button:hover {
+    background-color: #ba0000;
+}

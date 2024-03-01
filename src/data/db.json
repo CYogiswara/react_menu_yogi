@@ -1,0 +1,102 @@
+{
+  "menus": [
+    {
+      "id": "1",
+      "title": "Nasi ",
+      "content": "Enak",
+      "img": "https://cdn1-production-images-kly.akamaized.net/LDRjBxjUH3gyrzEAUFrCi_XisTs=/0x148:1920x1230/800x450/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3093328/original/069244600_1585909700-fried-2509089_1920.jpg",
+      "rating": 4,
+      "isFavorite": true,
+      "type": "sarapan"
+    },
+    {
+      "id": "3",
+      "title": "Es Teh",
+      "img": "https://fajar.co.id/wp-content/uploads/2023/09/IMG_0741.jpg",
+      "content": "lorem ipsum",
+      "rating": 5,
+      "type": "drink",
+      "isFavorite": true
+    },
+    {
+      "id": "1453",
+      "title": "baso goreng",
+      "img": "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Bakso-malang.jpg?fit=1920%2C1401&ssl=1",
+      "rating": 5,
+      "type": "sarapan",
+      "isFavorite": true,
+      "content": "baso bulat enak"
+    },
+    {
+      "id": "bcc3",
+      "title": "aaaaaaaa",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/e4uy88JKbOpcdoJ3EXJO.webp",
+      "rating": 3,
+      "type": "food",
+      "content": "aaaaaaaa"
+    },
+    {
+      "id": "8f95",
+      "title": "ahsjshfsfjaj",
+      "rating": 5,
+      "type": "food",
+      "content": "aaaaaaaaaaa",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/hRmrU0qHnXMj5CZ3qLvt.webp"
+    },
+    {
+      "id": "b470",
+      "title": "aaaaaaaaa",
+      "rating": 5,
+      "type": "food",
+      "content": "enak coy",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/hRmrU0qHnXMj5CZ3qLvt.webp"
+    },
+    {
+      "id": "1bf0",
+      "title": "aaaaaaaa",
+      "rating": "Not rated",
+      "type": "food",
+      "content": "aaaaaa",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/hRmrU0qHnXMj5CZ3qLvt.webp"
+    },
+    {
+      "id": "9d9e",
+      "title": "Coca Cola",
+      "rating": 4,
+      "type": "drink",
+      "content": "Enak",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/CbxOrdoQTStzTvq7U9G2.webp"
+    },
+    {
+      "id": "2977",
+      "title": "Bubur Ayam",
+      "rating": "Not rated",
+      "type": "sarapan",
+      "content": "Bubur Ayam McD",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/4HzEEvFji2YAKLwrXgXA.webp"
+    }
+  ],
+  "promo": [
+    {
+      "id": "1",
+      "title": "Drive Thru Sticker",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/promos/January2024/PxOZ9UOALZ6jyMLrCSi7.webp",
+      "desc": "Gratis Tongkat KUE (Kartu Uang Elektronik)",
+      "expired": "Berlaku Hingga 2 September 2023"
+    },
+    {
+      "id": "2",
+      "title": "SUPER DEAL Diskon 40%",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/promos/February2024/ePdxvRqVbWKLnJs12mPf.webp",
+      "desc": "2 - 20 Februaru di aplikasi McDonald's",
+      "expired": "Berlaku Hingga 30 Desember 2024"
+    },
+    {
+      "id": "3",
+      "title": "Paket HeBat (Hemat Banget)",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/promos/February2024/uXrfv3tGAMw9maI7HUwC.webp",
+      "desc": "",
+      "expired": "Berlaku Hingga 17 Mei 2024"
+    }
+  ]
+}
