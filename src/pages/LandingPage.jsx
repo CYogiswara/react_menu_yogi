@@ -11,7 +11,6 @@ const LandingPage = () => {
 
     return (
         <div>
-            {/* <img src={headerAD} className="landingHeaderImg" /> */}
             <Carousel/>
             <Promo/>
             <FavoriteMenu/>
