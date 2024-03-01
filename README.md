@@ -71,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 Image 1
 ![IMG_20240301_162657](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/b4bf9622-3db4-4c92-b4f8-4dfecbf7ca00)
+
+Image 2
+![IMG_20240301_163028](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/c0807e3d-5888-4a77-8c55-34a56c9bf1ce)
