@@ -186,6 +186,31 @@
       "id": "8d27",
       "username": "enal",
       "password": "eko"
+    },
+    {
+      "id": "9a41",
+      "username": "aqil",
+      "password": "wira",
+      "isAdmin": false,
+      "loggedIn": false
+    },
+    {
+      "id": "33d8",
+      "username": "ojan",
+      "password": "ojan",
+      "isAdmin": false
+    },
+    {
+      "id": "a88f",
+      "username": "ojan",
+      "password": "ojan2",
+      "isAdmin": false
+    },
+    {
+      "id": "5f5f",
+      "username": "ma",
+      "password": "aj",
+      "isAdmin": false
     }
   ]
 }

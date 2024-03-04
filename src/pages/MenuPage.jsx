@@ -15,6 +15,7 @@ const MenuPage = () => {
             {menus && <MenuList menus={menus.filter((menu) => menu.type === "food")} title="Foods" />}
             {menus && <MenuList menus={menus.filter((menu) => menu.type === "drink")} 
             title="Drinks" />}
+
         </div>
     );
 }
