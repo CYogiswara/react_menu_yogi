@@ -7,6 +7,7 @@ const Create = () => {
     const [content, setContent] = useState("")
     const [type, setType] = useState("food")
     const [img, setImg] = useState("")
+    const [isFavorite, setIsFavorite] = useState(true)
     const navigate = useNavigate()
 
     const handleSubmit = (e) => {
@@ -15,7 +16,7 @@ const Create = () => {
         if (isNaN(ratingValue)) {
             ratingValue = "Not rated"
         }
-        const menu = { title, rating: ratingValue, type, content, img }
+        const menu = { title, rating: ratingValue, type, content, img, isFavorite }
 
         fetch("http://localhost:3040/menus", {
             method: 'POST',
@@ -56,6 +57,13 @@ const Create = () => {
                     <option value="food">Food</option>
                     <option value="drink">Drink</option>
                     <option value="sarapan">Sarapan</option>
+                </select>
+                <label>Menu Status</label>
+                <select
+                    value={isFavorite}
+                    onChange={(e) => setIsFavorite(e.target.value)}>
+                    <option value={true}>Favorite</option>
+                    <option value={false}>Not Favorite</option>
                 </select>
                 <label>Menu Content</label>
                 <textarea

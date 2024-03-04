@@ -10,15 +10,6 @@
       "type": "sarapan"
     },
     {
-      "id": "3",
-      "title": "Es Teh",
-      "img": "https://fajar.co.id/wp-content/uploads/2023/09/IMG_0741.jpg",
-      "content": "lorem ipsum",
-      "rating": 5,
-      "type": "drink",
-      "isFavorite": true
-    },
-    {
       "id": "1453",
       "title": "baso goreng",
       "img": "https://i0.wp.com/resepkoki.id/wp-content/uploads/2017/05/Resep-Bakso-malang.jpg?fit=1920%2C1401&ssl=1",
@@ -68,12 +59,93 @@
       "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/CbxOrdoQTStzTvq7U9G2.webp"
     },
     {
+      "id": "2c50",
       "title": "bubur",
       "rating": 4,
       "type": "sarapan",
-      "content": "aaaaaa",
+      "content": "yeay",
       "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/4HzEEvFji2YAKLwrXgXA.webp",
-      "id": "2977"
+      "isFavorite": ""
+    },
+    {
+      "id": "5a3f",
+      "title": "bubur 2",
+      "rating": 4,
+      "type": "sarapan",
+      "content": "betul",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/4HzEEvFji2YAKLwrXgXA.webp",
+      "isFavorite": ""
+    },
+    {
+      "id": "8581",
+      "title": "bubur 2",
+      "rating": 4,
+      "type": "sarapan",
+      "content": "betul",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/4HzEEvFji2YAKLwrXgXA.webp",
+      "isFavorite": ""
+    },
+    {
+      "id": "41ca",
+      "title": "bubur 3",
+      "rating": 5,
+      "type": "sarapan",
+      "content": "aaaaaaa",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/4HzEEvFji2YAKLwrXgXA.webp",
+      "isFavorite": null
+    },
+    {
+      "id": "118b",
+      "title": "ayam",
+      "rating": 5,
+      "type": "food",
+      "content": "ayam",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/zdp0LhOduHDNXVYWILMx.webp",
+      "isFavorite": null
+    },
+    {
+      "id": "41ea",
+      "title": "ayam 2",
+      "rating": 4,
+      "type": "food",
+      "content": "aaaaaa",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/zdp0LhOduHDNXVYWILMx.webp"
+    },
+    {
+      "title": "ayam",
+      "rating": 5,
+      "type": "false",
+      "content": "aaaaaaaaa",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/zdp0LhOduHDNXVYWILMx.webp",
+      "isFavorite": true,
+      "id": "9dcf"
+    },
+    {
+      "id": "cdfb",
+      "title": "panas 1",
+      "rating": 5,
+      "type": "food",
+      "content": "aaaaaaaa",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/zdp0LhOduHDNXVYWILMx.webp",
+      "isFavorite": "false"
+    },
+    {
+      "id": "3fc8",
+      "title": "big mac",
+      "rating": 5,
+      "type": "food",
+      "content": "aaaaaaaaaaa",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/S2b8K7g2tM6cDksrAdVv.webp",
+      "isFavorite": true
+    },
+    {
+      "id": "3165",
+      "title": "big mac 2",
+      "rating": 2,
+      "type": "food",
+      "content": "aaaaaaa",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/S2b8K7g2tM6cDksrAdVv.webp",
+      "isFavorite": "false"
     }
   ],
   "promo": [
@@ -97,6 +169,23 @@
       "img": "https://d2vuyvo9qdtgo9.cloudfront.net/promos/February2024/uXrfv3tGAMw9maI7HUwC.webp",
       "desc": "",
       "expired": "Berlaku Hingga 17 Mei 2024"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "eccb",
+      "username": "aaaaaaa",
+      "password": "hebat"
+    },
+    {
+      "id": "27a8",
+      "username": "yogi",
+      "password": "hehe"
+    },
+    {
+      "id": "8d27",
+      "username": "enal",
+      "password": "eko"
     }
   ]
 }

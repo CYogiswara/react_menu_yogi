@@ -11,6 +11,7 @@ const Update = () => {
     const [content, setContent] = useState("");
     const [type, setType] = useState("food");
     const [img, setImg] = useState("")
+    const [isFavorite, setIsFavorite] = useState(null)
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -21,7 +22,8 @@ const Update = () => {
                 setRating(data.rating);
                 setContent(data.content);
                 setType(data.type);
-                setImg(data.img)
+                setImg(data.img);
+                setIsFavorite(data.isFavorite);
             })
             .catch(error => console.error('Error fetching menu details:', error));
     }, [id]);
@@ -32,7 +34,7 @@ const Update = () => {
         if (isNaN(ratingValue)) {
             ratingValue = "Not rated";
         }
-        const menu = { title, rating: ratingValue, type, content, img };
+        const menu = { title, rating: ratingValue, type, content, img, isFavorite };
 
         fetch(`http://localhost:3040/menus/${id}`, {
             method: 'PUT',
@@ -79,6 +81,13 @@ const Update = () => {
                     <option value="food">Food</option>
                     <option value="drink">Drink</option>
                     <option value="sarapan">Sarapan</option>
+                </select>
+                <label>Menu Status</label>
+                <select
+                    defaultValue={isFavorite}
+                    onChange={(e) => setIsFavorite(e.target.value)}>
+                    <option value={true}>Favorite</option>
+                    <option value={false}>Not Favorite</option>
                 </select>
                 <label>Menu Content</label>
                 <textarea
