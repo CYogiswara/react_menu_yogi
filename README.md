@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Image 1
+![IMG_20240301_162657](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/b4bf9622-3db4-4c92-b4f8-4dfecbf7ca00)
+
+Image 2
+![IMG_20240301_163028](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/c0807e3d-5888-4a77-8c55-34a56c9bf1ce)
+
+Image 3
+![IMG_20240301_162719](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/ba8a6ea5-6ad5-4d5c-bf51-78144161ecfc)
+
+Image 4
+![IMG_20240301_162732](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/a4dba352-1c54-40c0-8037-0cc9290f1526)
+
+Image 5
+![IMG_20240301_162749](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/45ca8c96-5600-4bc0-a0e7-96b8e8a35ce0)
+
+Image 6
+![IMG_20240301_162814](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/b21638db-4358-4e10-bc7b-1be2f9f4d22d)
+
+Image 7
+![IMG_20240301_162828](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/df22aa1a-13c6-46af-b7d9-ce16ffb4c71e)
+
+Image 8
+![IMG_20240301_162851](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/830e8571-d132-44c3-aa17-8385be4553ad)
+
+Image 9 
+![IMG_20240301_162839](https://github.com/CYogiswara/react_menu_yogi/assets/112369336/50c8dea9-c3a4-4552-ae1a-2d2ab60b58a5)
