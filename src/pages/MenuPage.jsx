@@ -4,6 +4,7 @@ import headerImage from "../assets/header.png";
 import { useEffect, useState } from "react";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import data from "../data/db.json"
 
 const MenuPage = () => {
 
@@ -16,6 +17,21 @@ const MenuPage = () => {
     const [showSarapan, setShowSarapan] = useState(false);
     const [showFood, setShowFood] = useState(false)
     const [showDrink, setShowDrink] = useState(false)
+    const [searchTerm, setSearchTerm] = useState("")
+    const [filteredData, setFilteredData] = useState(menus)
+    const [isSearching, setIsSearching] = useState()
+
+    const handleInputChange = (event) => {
+        const {value} = event.target
+        setSearchTerm(value)
+        filterData(value)
+        console.log(value)
+    }
+
+    const filterData = (searchTerm) => {
+        const filteredData = menus.filter((item) => item.title.toLowerCase().includes(searchTerm.toLowerCase()))
+        setFilteredData(filteredData)
+    }
 
     useEffect(() => {
         setShowSarapan(true)
@@ -50,6 +66,7 @@ const MenuPage = () => {
                 <h1 className="header-title">Nikmati menu pilihan terbaik</h1>
                 <img src={headerImage} />
             </div>
+
             {error && <div>{error}</div>}
 
             <div style={{display: 'flex', flexDirection: "row", margin: '40px'}}>
@@ -59,6 +76,9 @@ const MenuPage = () => {
                 <button onClick={handleShowDrink} style={{ backgroundColor: "#D50000", color: 'white', width: "70px", height: "30px", margin: '3px', cursor: "pointer", border: 'none'}}>Drink</button>
             </div>
 
+            <input type="text" placeholder="Search..." value={searchTerm} onChange={setIsSearching(true)}/>
+
+            {console.log(filteredData)}
 
             {menus && showSarapan && (
                 <MenuList menus={menus.filter((menu) => menu.type === "sarapan")} title="Sarapan" data-aos="flip-left"/>
@@ -69,18 +89,8 @@ const MenuPage = () => {
             {menus && showDrink && (
                 <MenuList menus={menus.filter((menu) => menu.type === "drink")} title="Drink" data-aos="flip-left"/>
             )}
-
         </div>
     );
 }
-
-
-
-
-
-
-
-
-
 
 export default MenuPage;
