@@ -68,12 +68,12 @@
       "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/CbxOrdoQTStzTvq7U9G2.webp"
     },
     {
-      "id": "2977",
-      "title": "Bubur Ayam",
-      "rating": "Not rated",
+      "title": "bubur",
+      "rating": 4,
       "type": "sarapan",
-      "content": "Bubur Ayam McD",
-      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/4HzEEvFji2YAKLwrXgXA.webp"
+      "content": "aaaaaa",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/4HzEEvFji2YAKLwrXgXA.webp",
+      "id": "2977"
     }
   ],
   "promo": [

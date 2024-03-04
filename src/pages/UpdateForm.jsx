@@ -10,16 +10,18 @@ const Update = () => {
     const [rating, setRating] = useState("");
     const [content, setContent] = useState("");
     const [type, setType] = useState("food");
+    const [img, setImg] = useState("")
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch(`http://localhost:3030/menus/${id}`)
+        fetch(`http://localhost:3040/menus/${id}`)
             .then(response => response.json())
             .then(data => {
                 setTitle(data.title);
                 setRating(data.rating);
                 setContent(data.content);
                 setType(data.type);
+                setImg(data.img)
             })
             .catch(error => console.error('Error fetching menu details:', error));
     }, [id]);
@@ -30,10 +32,10 @@ const Update = () => {
         if (isNaN(ratingValue)) {
             ratingValue = "Not rated";
         }
-        const menu = { title, rating: ratingValue, type, content };
+        const menu = { title, rating: ratingValue, type, content, img };
 
         fetch(`http://localhost:3040/menus/${id}`, {
-            method: 'PATCH',
+            method: 'PUT',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(menu)
         })
@@ -76,6 +78,7 @@ const Update = () => {
                     onChange={(e) => setType(e.target.value)}>
                     <option value="food">Food</option>
                     <option value="drink">Drink</option>
+                    <option value="sarapan">Sarapan</option>
                 </select>
                 <label>Menu Content</label>
                 <textarea
@@ -83,6 +86,12 @@ const Update = () => {
                     defaultValue={content}
                     onChange={(e) => setContent(e.target.value)}>
                 </textarea>
+                <label>Image URL</label>
+                    <input
+                        type="link"
+                        required
+                        defaultValue={img}
+                        onChange={(e) => setImg(e.target.value)} />
                 <button>Update</button>
             </form>
         </div>

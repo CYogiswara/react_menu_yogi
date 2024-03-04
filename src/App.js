@@ -7,6 +7,7 @@ import Update from './components/UpdateComponent';
 import LandingPage from './pages/LandingPage';
 import Footer from './components/FooterComponent';
 import PromoList from './components/PromoListComponent';
+import UpdateForm from './pages/UpdateForm';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
             <Route path='/menulist' element={<MenuPage />} />
             <Route path='/create' element={<Create/>}></Route>
             <Route path='/menus/:id' element={<MenuDetail />} />
-            <Route path='/update/:id' element={<Update />} />
+            <Route path='/update/:id' element={<UpdateForm/>} />
             <Route path='/promolist' element={<PromoList />} />
           </Routes>
         </div>
