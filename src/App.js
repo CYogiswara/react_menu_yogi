@@ -7,8 +7,8 @@ import LandingPage from './pages/LandingPage';
 import Footer from './components/FooterComponent';
 import PromoList from './components/PromoListComponent';
 import UpdateForm from './pages/UpdateForm';
-import Register from './pages/Login';
-import Login from './pages/Login';
+import Register from './pages/Register';
+import Login from './pages/Register';
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
             <Route path='/menus/:id' element={<MenuDetail />} />
             <Route path='/update/:id' element={<UpdateForm/>} />
             <Route path='/promolist' element={<PromoList />} />
-            <Route path='/login' element={<Register />} />
+            <Route path='/register' element={<Register />} />
           </Routes>
         </div>
         <Footer/>

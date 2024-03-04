@@ -22,7 +22,7 @@ const Navbar = () => {
                     <Link to="/createpromo">Add Promo</Link>
                 </li>
                 <li>
-                    <Link to="/login">Login</Link>
+                    <Link to="/register">Register</Link>
                 </li>
             </ul>
         </nav>
