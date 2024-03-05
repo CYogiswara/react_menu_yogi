@@ -9,6 +9,9 @@ import PromoList from './components/PromoListComponent';
 import UpdateForm from './pages/UpdateForm';
 import Register from './pages/Register';
 import Login from './pages/Register';
+import PromoPage from './pages/PromoPage';
+import CreatePromoPage from './pages/CreatePromoPage';
+import PromoDetail from './pages/PromoDetail';
 
 
 function App() {
@@ -23,7 +26,9 @@ function App() {
             <Route path='/menulist' element={<MenuPage />} />
             <Route path='/create' element={<Create/>}></Route>
             <Route path='/menus/:id' element={<MenuDetail />} />
+            <Route path='/promos/:id' element={<PromoDetail/>} />
             <Route path='/update/:id' element={<UpdateForm/>} />
+            <Route path='/createpromo' element={<CreatePromoPage/>} />
             <Route path='/promolist' element={<PromoList />} />
             <Route path='/register' element={<Register />} />
           </Routes>

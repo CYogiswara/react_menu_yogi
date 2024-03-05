@@ -23,7 +23,7 @@ const Promo = () => {
                                 <img src={diskon.img} alt="#"></img>
                                 <h1 className="promo-content">{diskon.title}</h1>
                                 <h3 className="promo-content">{diskon.desc}</h3>
-                                <p className="promo-content">{diskon.expired}</p>
+                                <p className="promo-content">Berlaku Hingga {diskon.expired}</p>
                             </Link>
                         </div>
                     </div>
