@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import '../styles/register.css';
+import Logo from '../assets/logoMCD.png';
 
 const Register = () => {
 
@@ -12,11 +14,11 @@ const Register = () => {
 
     const handleChecked = (e) => {
         if (e.target.checked) {
-          setIsAdmin(true)
+            setIsAdmin(true)
         } else {
-          setIsAdmin(false)
+            setIsAdmin(false)
         }
-      };
+    };
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -27,17 +29,18 @@ const Register = () => {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(account)
         }).then(() => {
-            if(isAdmin === true){
+            if (isAdmin === true) {
                 navigate("/login")
-            }else{
+            } else {
                 alert("fail")
             }
-            navigate( "/login");
+            navigate("/login");
         })
 
     }
     return (
         <div className="create">
+            <img src={Logo} style={{ width: '40px', marginBottom: '15px' }} alt="" />
             <h2>Register</h2>
             <form onSubmit={handleSubmit}>
                 <label>Username</label>
@@ -55,12 +58,15 @@ const Register = () => {
                 <label>Admin</label>
                 <input
                     type="checkbox"
-                    value ={isAdmin}
+                    value={isAdmin}
                     onChange={handleChecked}
                 />
-                <button>Create account</button>
+                <button style={{margin: '20px'}}>Create account</button>
             </form>
-                <p>Already have an account?</p><Link to="/login">Login</Link>
+            <div style={{margin: '20px'}}>
+                <p>Already have an account?</p><Link to="/login" style={{color: 'blue'}}>Login</Link>
+            </div>
+
         </div>);
 }
 
