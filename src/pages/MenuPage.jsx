@@ -50,11 +50,8 @@ const MenuPage = () => {
         <div className="home">
             <Navbar />
             <div className="header">
-                <div>
-                    <Link to='/landingpage'>
-                        <h3>&#8676;Home</h3>
-                    </Link>
-                </div>
+
+
 
                 <h1 className="header-title">Nikmati menu pilihan terbaik</h1>
                 <img src={headerImage} />

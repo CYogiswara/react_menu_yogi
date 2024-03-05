@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Logo from '../assets/logoMCD.png';
 
 const Login = ({ accounts }) => {
 
@@ -32,6 +33,7 @@ const Login = ({ accounts }) => {
 
     return (
         <div className="create">
+            <img src={Logo} style={{ width: '40px', marginBottom: '15px' }} alt="" />
             <h2>Login</h2>
             <form onSubmit={handleSubmit}>
                 <label>Username</label>

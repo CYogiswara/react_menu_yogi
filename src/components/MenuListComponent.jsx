@@ -8,7 +8,7 @@ const MenuList = ({ menus, title, isFavorite }) => {
 
     return (
         <div className="home">
-            <input type="search" onChange={e => setSearch(e.target.value)} className="searchBar" placeholder="Search in this category"/>
+            <input type="search" onChange={e => setSearch(e.target.value)} className="searchBar" placeholder="Search in this category" style={{border: '1px solid black'}}/>
             <h1 className="menu-title">{title}</h1>
             {menus.filter((menu) => menu.title.toLowerCase().includes(search)).map((menu) => (
                 <div className="container">
