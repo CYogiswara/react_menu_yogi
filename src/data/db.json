@@ -311,6 +311,16 @@
       "username": "Admin",
       "password": "Admin",
       "isAdmin": true
+    },
+    {
+      "id": "3d1e",
+      "username": "baboy",
+      "password": "baboy"
+    },
+    {
+      "id": "4f87",
+      "username": "baboy",
+      "password": "baboy"
     }
   ]
 }

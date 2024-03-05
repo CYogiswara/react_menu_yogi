@@ -1,12 +1,10 @@
-.favorite-container{
+.btn-container-promo{
     display: flex;
-    flex-direction: column; 
-    align-items: center;
-    background: #fafafa;
-    padding: 50px;
+    justify-content: center;
+    margin: 60px;
 }
 
-.view-all-button {
+.view-all-promo{
     background: #D50000;
     color: white;
     width: 230px;
@@ -16,9 +14,8 @@
     box-shadow: 2px 2px 5px grey;
     border: none;
     cursor: pointer;
-    margin: 60px;
 }
 
-.view-all-button:hover {
+.view-all-promo:hover{
     background-color: #ba0000;
 }

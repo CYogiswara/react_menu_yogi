@@ -8,7 +8,7 @@ import Footer from './components/FooterComponent';
 import PromoList from './components/PromoListComponent';
 import UpdateForm from './pages/UpdateForm';
 import Register from './pages/Register';
-import PromoPage from './pages/PromoPage';
+import PromoPage from './components/MainPromoComponent';
 import CreatePromoPage from './pages/CreatePromoPage';
 import PromoDetail from './pages/PromoDetail';
 import Login from './pages/Login';
@@ -20,7 +20,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
+        {/* <Navbar /> */}
         <div className="content">
           <Routes>
             <Route exact path='/landingpage' element={<LandingPage />} />

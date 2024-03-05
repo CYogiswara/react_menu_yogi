@@ -25,6 +25,7 @@ const Promo = () => {
                                 <h3 className="promo-content">{diskon.desc}</h3>
                                 <p className="promo-content">Berlaku Hingga {diskon.expired}</p>
                             </Link>
+                            
                         </div>
                     </div>
                 ))}

@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import data from "../data/db.json"
+import Navbar from "../components/NavbarComponent";
 
 const MenuPage = () => {
 
@@ -62,6 +63,7 @@ const MenuPage = () => {
     }
     return (
         <div className="home">
+            <Navbar/>
             <div className="header">
                 <h1 className="header-title">Nikmati menu pilihan terbaik</h1>
                 <img src={headerImage} />
@@ -70,10 +72,15 @@ const MenuPage = () => {
             {error && <div>{error}</div>}
 
             <div style={{display: 'flex', flexDirection: "row", margin: '40px'}}>
+
                 <button onClick={handleShowAll} style={{ backgroundColor: "#D50000", color: 'white', width: "70px", height: "30px", margin: '3px', cursor: "pointer", border:'none'}} >All</button>
+
                 <button onClick={handleShowSarapan} style={{ backgroundColor: "#D50000", color: 'white', width: "70px", height: "30px", margin: '3px', cursor: "pointer", border: 'none'}}>Sarapan</button>
+
                 <button onClick={handleShowFood} style={{ backgroundColor: "#D50000", color: 'white', width: "70px", height: "30px", margin: '3px', cursor: "pointer", border:'none'}}>Food</button>
+
                 <button onClick={handleShowDrink} style={{ backgroundColor: "#D50000", color: 'white', width: "70px", height: "30px", margin: '3px', cursor: "pointer", border: 'none'}}>Drink</button>
+
             </div>
 
             {/* <input type="text" placeholder="Search..." value={searchTerm} onChange={setIsSearching(true)}/> */}

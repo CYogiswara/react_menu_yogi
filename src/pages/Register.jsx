@@ -32,6 +32,7 @@ const Register = () => {
             }else{
                 alert("fail")
             }
+            navigate( "/login");
         })
 
     }
@@ -47,7 +48,7 @@ const Register = () => {
                     onChange={(e) => setUsername(e.target.value)} />
                 <label>Password</label>
                 <input
-                    type="text"
+                    type="password"
                     required
                     value={password}
                     onChange={(e) => setPassword(e.target.value)} />
