@@ -12,26 +12,26 @@ const MenuPage = () => {
         AOS.init()
     }, [])
 
-    const { data: menus, error } = useFetch("http://localhost:3040/menus")
+    const { data: menus, error, isPending } = useFetch("http://localhost:3040/menus")
     const [showAll, setShowAll] = useState(true)
     const [showSarapan, setShowSarapan] = useState(false);
     const [showFood, setShowFood] = useState(false)
     const [showDrink, setShowDrink] = useState(false)
-    const [searchTerm, setSearchTerm] = useState("")
-    const [filteredData, setFilteredData] = useState(menus)
-    const [isSearching, setIsSearching] = useState()
+    // const [searchTerm, setSearchTerm] = useState("")
+    // const [filteredData, setFilteredData] = useState(menus)
+    // const [isSearching, setIsSearching] = useState()
 
-    const handleInputChange = (event) => {
-        const {value} = event.target
-        setSearchTerm(value)
-        filterData(value)
-        console.log(value)
-    }
+    // const handleInputChange = (event) => {
+    //     const {value} = event.target
+    //     setSearchTerm(value)
+    //     filterData(value)
+    //     console.log(value)
+    // }
 
-    const filterData = (searchTerm) => {
-        const filteredData = menus.filter((item) => item.title.toLowerCase().includes(searchTerm.toLowerCase()))
-        setFilteredData(filteredData)
-    }
+    // const filterData = (searchTerm) => {
+    //     const filteredData = menus.filter((item) => item.title.toLowerCase().includes(searchTerm.toLowerCase()))
+    //     setFilteredData(filteredData)
+    // }
 
     useEffect(() => {
         setShowSarapan(true)
@@ -76,9 +76,11 @@ const MenuPage = () => {
                 <button onClick={handleShowDrink} style={{ backgroundColor: "#D50000", color: 'white', width: "70px", height: "30px", margin: '3px', cursor: "pointer", border: 'none'}}>Drink</button>
             </div>
 
-            <input type="text" placeholder="Search..." value={searchTerm} onChange={setIsSearching(true)}/>
+            {/* <input type="text" placeholder="Search..." value={searchTerm} onChange={setIsSearching(true)}/> */}
 
-            {console.log(filteredData)}
+            {/* {console.log(filteredData)} */}
+
+            {isPending && <div>Getting the data</div>}
 
             {menus && showSarapan && (
                 <MenuList menus={menus.filter((menu) => menu.type === "sarapan")} title="Sarapan" data-aos="flip-left"/>
