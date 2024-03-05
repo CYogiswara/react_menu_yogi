@@ -8,10 +8,11 @@ import Footer from './components/FooterComponent';
 import PromoList from './components/PromoListComponent';
 import UpdateForm from './pages/UpdateForm';
 import Register from './pages/Register';
-import Login from './pages/Register';
 import PromoPage from './pages/PromoPage';
 import CreatePromoPage from './pages/CreatePromoPage';
 import PromoDetail from './pages/PromoDetail';
+import Login from './pages/Login';
+import Data from './data/db.json';
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
-            <Route exact path='/' element={<LandingPage />} />
+            <Route exact path='/landingpage' element={<LandingPage />} />
             <Route path='/menulist' element={<MenuPage />} />
             <Route path='/create' element={<Create/>}></Route>
             <Route path='/menus/:id' element={<MenuDetail />} />
@@ -30,7 +31,8 @@ function App() {
             <Route path='/update/:id' element={<UpdateForm/>} />
             <Route path='/createpromo' element={<CreatePromoPage/>} />
             <Route path='/promolist' element={<PromoList />} />
-            <Route path='/register' element={<Register />} />
+            <Route path='/' element={<Register />} />
+            <Route path='/login' element={<Login accounts={Data.user}/>} />
           </Routes>
         </div>
         <Footer/>

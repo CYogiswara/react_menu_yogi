@@ -5,11 +5,11 @@ import '../styles/menudetail.css'
 const PromoDetail = () => {
 
     const { id } = useParams()
-    const { data: menu, error } = useFetch("http://localhost:3040/promo/" + id)
+    const { data: diskon, error } = useFetch("http://localhost:3040/promo/" + id)
     const navigate = useNavigate()
 
     const handleDelete = () => {
-        fetch("http://localhost:3040/menus/" + menu.id, {
+        fetch("http://localhost:3040/promo/" + diskon.id, {
             method: "DELETE"
         }).then(() => {
             navigate("/menulist")
@@ -19,13 +19,13 @@ const PromoDetail = () => {
     return (
         <div>
             {error && <div>{error}</div>}
-            {menu && (
+            {diskon && (
                 <div className="detail-container">
                     <div className="menu-detail">
-                        <img src={menu.img} />
-                        <h1>{menu.title}</h1>
-                        <h2>⭐{menu.rating}</h2>
-                        <p>{menu.content}</p>
+                        <img src={diskon.img} />
+                        <h1>{diskon.title}</h1>
+                        <h2>⭐{diskon.rating}</h2>
+                        <p>{diskon.content}</p>
                         <button onClick={handleDelete}>Delete</button>
                     </div>
                 </div>

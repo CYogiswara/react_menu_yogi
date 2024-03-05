@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Register = () => {
 
@@ -21,13 +22,13 @@ const Register = () => {
         e.preventDefault()
         const account = { username, password, isAdmin };
 
-        fetch("http://localhost:3040/accounts", {
+        fetch("http://localhost:3040/user", {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(account)
         }).then(() => {
             if(isAdmin === true){
-                navigate("/menulist")
+                navigate("/login")
             }else{
                 alert("fail")
             }
@@ -36,7 +37,7 @@ const Register = () => {
     }
     return (
         <div className="create">
-            <h2>Login</h2>
+            <h2>Register</h2>
             <form onSubmit={handleSubmit}>
                 <label>Username</label>
                 <input
@@ -58,6 +59,7 @@ const Register = () => {
                 />
                 <button>Create account</button>
             </form>
+                <p>Already have an account?</p><Link to="/login">Login</Link>
         </div>);
 }
 
