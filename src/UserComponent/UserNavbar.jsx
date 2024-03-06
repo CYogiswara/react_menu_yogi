@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import logoMCD from '../assets/logoMCD.png'
 import '../styles/navbar.css'
 
-const Navbar = () => {
+const UserNavbar = () => {
     return (
         <nav>
             <div className="logo">
@@ -10,16 +10,10 @@ const Navbar = () => {
             </div>
             <ul>                
                 <li>
-                    <Link to="/landingpage">Home</Link>
+                    <Link to="/userlanding">Home</Link>
                 </li>
                 <li>
-                    <Link to="/menulist">Menu</Link>
-                </li>
-                <li>
-                    <Link to="/create">Add Menu</Link>
-                </li>
-                <li>
-                    <Link to="/createpromo">Add Promo</Link>
+                    <Link to="/usermenulist">Menu</Link>
                 </li>
                 <li>
                     <Link to="/login">Logout</Link>
@@ -29,4 +23,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default UserNavbar;

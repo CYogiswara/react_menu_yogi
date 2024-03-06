@@ -25,9 +25,9 @@ const Login = ({ accounts }) => {
 
         if (findUser) {
             navigate('/landingpage')
-        } else {
-            alert("Only admin can access this page")
-        }
+        }else{
+            navigate('/userlanding')
+        } 
     }
 
 
@@ -57,12 +57,11 @@ const Login = ({ accounts }) => {
                     style={{float: 'left'}}
                 />
                 <button>Login</button>
-                <Link to='/'>
-                    <button style={{ background: 'red', margin: '10px' }}>Cancel</button>
-                </Link>
+                <div style={{margin: '20px'}}>
+                <p>Don't have an account?</p><Link to="/" style={{color: 'blue'}}>Register</Link>
+            </div>
             </form>
         </div>
     );
 }
-
 export default Login;

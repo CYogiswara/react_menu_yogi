@@ -180,147 +180,44 @@
   ],
   "user": [
     {
-      "id": "eccb",
-      "username": "aaaaaaa",
-      "password": "hebat"
-    },
-    {
-      "id": "27a8",
-      "username": "yogi",
-      "password": "hehe"
-    },
-    {
-      "id": "8d27",
-      "username": "enal",
-      "password": "eko"
-    },
-    {
-      "id": "9a41",
-      "username": "aqil",
-      "password": "wira",
-      "isAdmin": false,
-      "loggedIn": false
-    },
-    {
-      "id": "33d8",
-      "username": "ojan",
-      "password": "ojan",
-      "isAdmin": false
-    },
-    {
-      "id": "a88f",
-      "username": "ojan",
-      "password": "ojan2",
-      "isAdmin": false
-    },
-    {
-      "id": "5f5f",
-      "username": "ma",
-      "password": "aj",
-      "isAdmin": false
-    },
-    {
-      "id": "d23a",
-      "username": "aaaaaa",
-      "password": "aaaaaaanjay",
-      "isAdmin": true
-    },
-    {
-      "id": "9d01",
-      "username": "aaaa",
-      "password": "aaaaaa",
-      "isAdmin": true
-    },
-    {
-      "id": "0d37",
-      "username": "aaaaaaaa",
-      "password": "aaaaaa"
-    },
-    {
-      "id": "1626",
-      "username": "ba",
-      "password": "ba",
-      "isAdmin": true
-    },
-    {
-      "id": "9dc8",
-      "username": "ba",
-      "password": "ba",
-      "isAdmin": true
-    },
-    {
-      "id": "82a9",
-      "username": "ba",
-      "password": "ba",
-      "isAdmin": true
-    },
-    {
-      "id": "dd71",
-      "username": "ba",
-      "password": "ba",
-      "isAdmin": true
-    },
-    {
-      "id": "6d80",
-      "username": "ba",
-      "password": "ba",
-      "isAdmin": true
-    },
-    {
-      "id": "38fe",
-      "username": "ba",
-      "password": "ba",
-      "isAdmin": true
-    },
-    {
-      "id": "81af",
-      "username": "ba",
-      "password": "ba",
-      "isAdmin": true
-    },
-    {
-      "id": "273e",
-      "username": "ba",
-      "password": "ba",
-      "isAdmin": true
-    },
-    {
-      "id": "4c4d",
-      "username": "register",
-      "password": "register",
-      "isAdmin": true
-    },
-    {
-      "id": "855e",
-      "username": "register",
-      "password": "register",
-      "isAdmin": true
-    },
-    {
-      "id": "6109",
-      "username": "notAdmin",
-      "password": "notAdmin"
-    },
-    {
-      "id": "1b41",
-      "username": "notAdmin",
-      "password": "notAdmin"
-    },
-    {
-      "id": "8937",
+      "id": "171f",
       "username": "Admin",
       "password": "Admin",
       "isAdmin": true
     },
     {
-      "id": "3d1e",
-      "username": "baboy",
-      "password": "baboy"
+      "id": "9eba",
+      "username": "Admin2",
+      "password": "Admin2",
+      "isAdmin": true
     },
     {
-      "id": "4f87",
+      "id": "bda9",
+      "username": "notAdmin",
+      "password": "notAdmin"
+    },
+    {
+      "id": "4800",
+      "username": "aaa",
+      "password": "aaaaa"
+    },
+    {
+      "id": "37d0",
+      "username": "Admin3",
+      "password": "Admin3",
+      "isAdmin": true
+    },
+    {
+      "id": "6e78",
       "username": "baboy",
-      "password": "baboy"
+      "password": "baboy",
+      "isAdmin": true
+    },
+    {
+      "id": "518f",
+      "username": "Admin4",
+      "password": "Admin4",
+      "isAdmin": true
     }
   ]
 }

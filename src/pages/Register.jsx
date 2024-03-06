@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import '../styles/register.css';
 import Logo from '../assets/logoMCD.png';
 
 const Register = () => {
@@ -29,11 +28,6 @@ const Register = () => {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(account)
         }).then(() => {
-            if (isAdmin === true) {
-                navigate("/login")
-            } else {
-                alert("fail")
-            }
             navigate("/login");
         })
 

@@ -13,6 +13,9 @@ import CreatePromoPage from './pages/CreatePromoPage';
 import PromoDetail from './pages/PromoDetail';
 import Login from './pages/Login';
 import Data from './data/db.json';
+import UserLandingPage from './UserPage/UserLandingPage';
+import UserMenuPage from './UserPage/UserMenuPage';
+import UserMenuDetailPage from './UserPage/UserMenuDetailPage';
 
 
 function App() {
@@ -20,7 +23,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <Navbar /> */}
         <div className="content">
           <Routes>
             <Route exact path='/landingpage' element={<LandingPage />} />
@@ -33,6 +35,13 @@ function App() {
             <Route path='/promolist' element={<PromoList />} />
             <Route path='/' element={<Register />} />
             <Route path='/login' element={<Login accounts={Data.user}/>} />
+            
+
+            {/* User Routes */}
+
+            <Route path='/userlanding' element={<UserLandingPage/>} />
+            <Route path='/usermenulist' element={<UserMenuPage/>} />
+            <Route path='/usermenus/:id' element={<UserMenuDetailPage/>} />
           </Routes>
         </div>
         <Footer/>
