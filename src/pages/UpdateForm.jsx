@@ -45,7 +45,6 @@ const Update = () => {
                 if (!response.ok) {
                     throw new Error('Failed to update menu');
                 }
-                console.log("Updated");
                 navigate("/menulist");
             })
             .catch(error => {

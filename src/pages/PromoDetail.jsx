@@ -15,7 +15,7 @@ const PromoDetail = () => {
             navigate("/menulist")
         })
     }
-
+    
     return (
         <div>
             {error && <div>{error}</div>}
