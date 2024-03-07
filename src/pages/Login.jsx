@@ -21,13 +21,17 @@ const Login = ({ accounts }) => {
     const handleSubmit = (e) => {
         e.preventDefault()
 
-        const findUser = accounts.find((user) => user.username === username && user.password === password && user.isAdmin === true)
+        const findUser = accounts.find((user) => user.username === username && user.password === password)
+        const findAdmin = accounts.find((user) => user.username === username && user.password === password && user.isAdmin === true)
 
-        if (findUser) {
-            navigate('/landingpage')
-        }else{
+
+        if(findUser){
             navigate('/userlanding')
-        } 
+        }
+        if(findAdmin) {
+            navigate('/landingpage')
+        }
+
     }
 
 

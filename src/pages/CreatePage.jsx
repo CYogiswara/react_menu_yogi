@@ -23,8 +23,6 @@ const Create = () => {
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(menu)
         }).then(() => {
-            console.log(menu)
-            console.log("Added")
             navigate("/menulist")
         })
     }

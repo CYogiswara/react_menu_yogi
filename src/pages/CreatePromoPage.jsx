@@ -23,7 +23,7 @@ const Promo = () => {
         }).then(() => {
             console.log(promo)
             console.log("Added")
-            navigate("/menulist")
+            navigate("/landingpage")
         })
     }
 

@@ -19,14 +19,6 @@
       "content": "baso bulat enak"
     },
     {
-      "id": "bcc3",
-      "title": "aaaaaaaa",
-      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/e4uy88JKbOpcdoJ3EXJO.webp",
-      "rating": 3,
-      "type": "food",
-      "content": "aaaaaaaa"
-    },
-    {
       "id": "8f95",
       "title": "ahsjshfsfjaj",
       "rating": 5,
@@ -139,13 +131,31 @@
       "isFavorite": true
     },
     {
-      "id": "3165",
-      "title": "big mac 2",
+      "title": "big mac 3",
       "rating": 2,
       "type": "food",
       "content": "aaaaaaa",
       "img": "https://d2vuyvo9qdtgo9.cloudfront.net/foods/October2023/S2b8K7g2tM6cDksrAdVv.webp",
+      "isFavorite": "false",
+      "id": "3165"
+    },
+    {
+      "id": "24ab",
+      "title": "sprite",
+      "rating": 4,
+      "type": "drink",
+      "content": "sprite soda",
+      "img": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/MTA-11323126/sprite_sprite_pet_390_ml_full03_n81i4ps8.jpeg",
       "isFavorite": "false"
+    },
+    {
+      "title": "SpriteUpdate",
+      "rating": 3,
+      "type": "drink",
+      "content": "sprite",
+      "img": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full/catalog-image/MTA-11323126/sprite_sprite_pet_390_ml_full03_n81i4ps8.jpeg",
+      "isFavorite": "false",
+      "id": "9652"
     }
   ],
   "promo": [
@@ -171,11 +181,11 @@
       "expired": "17 Mei 2024"
     },
     {
-      "id": "190b",
-      "title": "diskon",
-      "desc": "diskon coy",
-      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/promos/February2024/ePdxvRqVbWKLnJs12mPf.webp",
-      "expired": "12 November 2025"
+      "id": "2702",
+      "title": "Diskon",
+      "desc": "Diskon 50%",
+      "img": "https://d2vuyvo9qdtgo9.cloudfront.net/promos/February2024/uXrfv3tGAMw9maI7HUwC.webp",
+      "expired": "16 Juni 2024"
     }
   ],
   "user": [
@@ -218,6 +228,47 @@
       "username": "Admin4",
       "password": "Admin4",
       "isAdmin": true
+    },
+    {
+      "id": "0fab",
+      "username": "Admin1",
+      "password": "Admin1",
+      "isAdmin": true
+    },
+    {
+      "id": "712a",
+      "username": "Admin6",
+      "password": "Admin6",
+      "isAdmin": true
+    },
+    {
+      "id": "7b88",
+      "username": "Admin7",
+      "password": "Admin7",
+      "isAdmin": true
+    },
+    {
+      "id": "7556",
+      "username": "Admin7",
+      "password": "Admin7",
+      "isAdmin": false
+    },
+    {
+      "id": "d7bf",
+      "username": "Admin9",
+      "password": "Admin9",
+      "isAdmin": true
+    },
+    {
+      "id": "97da",
+      "username": "AdminAdmn",
+      "password": "AdminAdmn",
+      "isAdmin": true
+    },
+    {
+      "id": "7407",
+      "username": "bukanAdmin",
+      "password": "bukanAdmin"
     }
   ]
 }
